@@ -1,12 +1,12 @@
-# Name: 
+# Name: Deniz Demir
 
 ## About Me
-* School Email: 
-* Dream Career: 
-* Hidden Talent: 
+* School Email: demird6740@durhamtech.edu
+* Dream Career: ethical hacker
+* Hidden Talent: risky investments
 
 ## Course Information
-* Semester: 
+* Semester: 2025 Spring
 * Course Name: CSC 118 - Swift Fundamentals I
 * Institution: [Durham Technical Community College](https://www.durhamtech.edu/)
 * Textbook: [Develop in Swift Fundamentals Xcode 15](https://books.apple.com/us/book/develop-in-swift-fundamentals/id6468967906)
