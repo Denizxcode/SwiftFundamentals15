@@ -10,8 +10,12 @@
  
  For each of the metrics above, declare either a constant or a variable and assign it a value corresponding to a hypothetical post. Be sure to use proper naming conventions.
  */
-
-
+var numberOfLikes: Int = 333
+var numberOfComments: Int = 33
+var yearCreated: Int = 1985
+var monthCreated: Int = 11
+var dayCreated: Int = 7
+print("This post has \(numberOfLikes) likes, \(numberOfComments) comments, was created in \(monthCreated)/\(dayCreated)/\(yearCreated).")
 /*:
 [Previous](@previous)  |  page 5 of 10  |  [Next: App Exercise - Fitness Tracker: Constant or Variable?](@next)
  */
