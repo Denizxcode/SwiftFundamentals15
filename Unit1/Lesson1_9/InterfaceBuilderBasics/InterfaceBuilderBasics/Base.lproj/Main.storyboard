@@ -16,18 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5J-ld-KEW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5J-ld-KEW">
                                 <rect key="frame" x="163" y="283" width="67" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Press"/>
                                 <connections>
                                     <action selector="changeTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wBc-cU-JkW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I'm learning how to make really awesome apps!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rR9-XD-hlX">
-                                <rect key="frame" x="64" y="148" width="265" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm learning how to make really awesome apps!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rR9-XD-hlX">
+                                <rect key="frame" x="64" y="149" width="265" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="LgZ-i7-UFe"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -35,6 +36,13 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="rR9-XD-hlX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="2dk-oD-ctd"/>
+                            <constraint firstItem="A5J-ld-KEW" firstAttribute="top" secondItem="rR9-XD-hlX" secondAttribute="bottom" constant="76" id="AYA-r6-IdT"/>
+                            <constraint firstItem="rR9-XD-hlX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="No3-a0-wHo"/>
+                            <constraint firstItem="rR9-XD-hlX" firstAttribute="centerX" secondItem="A5J-ld-KEW" secondAttribute="centerX" id="f9Q-Xa-h4t"/>
+                            <constraint firstItem="rR9-XD-hlX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zWl-1G-l8c"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="mainLabel" destination="rR9-XD-hlX" id="2FQ-55-DoV"/>
